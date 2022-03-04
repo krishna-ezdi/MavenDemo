@@ -47,7 +47,7 @@ public class App
         
         
         // DELETE 
-   /*     stmt = con.createStatement();
+/*        stmt = con.createStatement();
         stmt.executeUpdate("DELETE FROM test.employee where id ="+3);
         System.out.println("Record Deleted.");   */
     }
