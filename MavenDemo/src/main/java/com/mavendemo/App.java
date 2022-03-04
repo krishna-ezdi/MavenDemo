@@ -14,7 +14,7 @@ public class App
 	static  Connection con = null;	
 	public static void main( String[] args ) throws SQLException, ClassNotFoundException 
     {
-        System.out.println( "Hello AGS Health..!" );
+        System.out.println( "Hello AGS Health...!" );
         con = App.databaseConnection();
         Statement stmt = null;
         stmt = con.createStatement();
